@@ -1,9 +1,0 @@
-{
-  "firebase": "angularbandapp",
-  "public": ".",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
