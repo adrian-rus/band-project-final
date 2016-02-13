@@ -21,15 +21,15 @@ body{
 h1,h2,h3{
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	color: #AAEE46 !important;
+	color: #5CC9D6 !important;
 
 }
 
 footer{
-	color: #AAEE46 !important;
+	color: #5CC9D6 !important;
 	background-color: #6b585b;
 	padding: 20px;
-	text-align: left;
+	text-align: right;
 	text-transform: uppercase;
 
 }
@@ -39,7 +39,7 @@ input[type=text], input[type=number]{
 }
 
 input[type=text]:focus, input[type=number]:focus{
-	border:2px solid #AAEE46;
+	border:2px solid #5CC9D6;
 	background-color: #6b585b;
 	color: #fff;
 }
@@ -69,7 +69,7 @@ input[type=text]:focus, input[type=number]:focus{
 		border:none;
 		color: #DCCCE8;
 		text-transform: uppercase;
-		padding: 30px;
+		padding: 20px;
 		margin-bottom: 20px;
 }
 
@@ -92,17 +92,20 @@ input[type=text]:focus, input[type=number]:focus{
 .navbar-brand{
 	font-size: 20px !important;
 	font-weight: bolder;
-	color: #AAEE46 !important;
+	color: #5CC9D6 !important;
 }
 
 /*styling home page carousel*/
+.carousel{
+	width: auto;
+	height: auto;
+}
 .carousel-caption h3{
-	color: #AAEE46 !important;
+	color: #5CC9D6 !important;
 }
 .carousel-inner img{
-	-webkit-filter:grayscale(90%);
-	filter: grayscale(90%);
-	width: 100%;
+	-webkit-filter:grayscale(70%);
+	filter: grayscale(70%);
 	margin:auto;
 }
 
@@ -136,7 +139,7 @@ input[type=text]:focus, input[type=number]:focus{
 }
 
 .glyphicon-shopping-cart, .glyphicon-play{
-	color: #AAEE46 !important;
+	color: #5CC9D6 !important;
 }
 
 .show {
@@ -182,7 +185,7 @@ input[type=text]:focus, input[type=number]:focus{
 
 #comments:focus{
 	background-color: #6b585b;
-	border: 2px solid #AAEE46;
+	border: 2px solid #5CC9D6;
 	color: #fff;
 
 }
