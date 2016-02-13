@@ -29,6 +29,9 @@ footer{
 	color: #AAEE46 !important;
 	background-color: #6b585b;
 	padding: 20px;
+	text-align: left;
+	text-transform: uppercase;
+
 }
 
 input[type=text], input[type=number]{
@@ -67,16 +70,21 @@ input[type=text]:focus, input[type=number]:focus{
 		color: #DCCCE8;
 		text-transform: uppercase;
 		padding: 30px;
+		margin-bottom: 15px;
 }
 
 .navbar li a, .navbar, .navbar-brand{
 	color: #DCCCE8 !important;
+	padding: inherit;
+	margin-bottom: inherit;
 }
 
 .navbar-nav li a:hover{
 	color: #fff !important;
 	background-color: #000 !important;
 	border:none;
+	padding: inherit;
+	margin-bottom: inherit;
 }
 
 .navbar-nav li.active a{
