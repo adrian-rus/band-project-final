@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="bandApp">
+<head>
+	<title>The Super Jays Band</title>
+	<meta charset="UTF-8">
+
+<!--loading css styling-->
+	<link rel="stylesheet" type="text/css" href='bootstrap/css/bootstrap.min.css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!--loading jQuery, Bootstrap and AngularJS-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src='bootstrap/js/bootstrap.min.js'></script>
+    <script src="scripts/vendor/angular.min.js"></script>
+    <script src="scripts/vendor/angular-route.min.js"></script>
+	
+</head>
+<body>
+	<band-nav></band-nav>
+	<div ng-view>
+	</div>
+	<band-footer></band-footer>
+
+<!--loading application JavaScripts-->
+   <script src='scripts/main.js'></script>
+   <script src="scripts/app.js"></script>
+   <script src="scripts/controller.js"></script>
+   <script src="scripts/directive.js"></script>
+   <script src="scripts/service.js"></script>
+   
+</body>
+</html>
