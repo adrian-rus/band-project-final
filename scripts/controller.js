@@ -29,10 +29,10 @@ angular.module('bandControllers',[])
 
 // declaring error page controller
 
-.controller('ErrorController',function($scope, $routeParams) {
+/*.controller('ErrorController',function($scope, $routeParams) {
    $scope.message = $routeParams.message;
    $scope.status = $routeParams.status;
-})
+})*/
 
 
 //declaring navigation controller
@@ -45,6 +45,12 @@ angular.module('bandControllers',[])
   $scope.title='';
 })
 
+//declaring songs controller
 .controller('SongsController', function($scope){
+  $scope.title='';
+})
+
+//declaring social bar controller
+.controller('SocialController', function($scope){
   $scope.title='';
 });

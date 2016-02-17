@@ -17,6 +17,15 @@ angular.module('bandDirectives',[])
     templateUrl: 'templates/directives/footer.html'
   }
 })
+.directive('bandSocial', function(){
+  return {
+    restrict: 'E',
+    scope:{
+      band: '=social'
+    },
+    templateUrl: 'templates/directives/social.html'
+  }
+})
 .directive('albumSongs', function(){
   return{
     restrict: 'E',
