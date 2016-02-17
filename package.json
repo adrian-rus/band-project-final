@@ -5,7 +5,7 @@
   "description": "A project for Code-Institute stream 1",
   "license": "MIT",
 
-  "repository": "https://github.com/adrian-rus/band_project_angular.git",
+  "repository": "https://github.com/adrian-rus/adrian-rus.github.io.git",
   "devDependencies":{
     "http-server": "^0.6.1",
     "shelljs": "^0.2.6"
