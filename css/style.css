@@ -55,20 +55,16 @@ nav img{
 	padding: 0;
 }
 
-video {
-	height: auto;
-	width: auto;
-}
 /*styling div container-fluids and fonts*/
 .container-fluid{
-	padding: 80px 120px;
-	height: auto;
+	padding: 80px 80px;
+	
 }
 
 .td1{
 	background:black;
 	color:#DCCCE8;
-	padding-top: 50px;
+	padding-top: 80px;
 }
 
 .td1 p{
@@ -113,8 +109,9 @@ video {
 }
 
 /*styling home page carousel*/
-.carousel-caption h3{
+.carousel-caption p h3{
 	color: #5CC9D6 !important;
+	background-color: transparent;
 }
 .carousel-inner img{
 	-webkit-filter:grayscale(70%);
@@ -129,7 +126,7 @@ video {
 	width: 350px;
 }
 
-.carouselm h3,p{
+.carouselm h3{
 	background-color: #000 !important;
 	opacity: .8;
 	border-radius: 10px;
