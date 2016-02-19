@@ -24,14 +24,18 @@ h1,h2,h3{
 	color: #5CC9D6 !important;
 
 }
-
+/*styling the footer*/
 footer{
 	color: #5CC9D6 !important;
 	background-color: #6b585b;
 	padding: 20px;
 	text-align: right;
 	text-transform: uppercase;
+}
 
+footer p{
+	font-size:12px;
+	background-color: transparent !important;
 }
 
 input[type=text], input[type=number]{
@@ -55,9 +59,10 @@ video {
 	height: auto;
 	width: auto;
 }
-/*styling div containers and fonts*/
-.container{
+/*styling div container-fluids and fonts*/
+.container-fluid{
 	padding: 80px 120px;
+	height: auto;
 }
 
 .td1{
@@ -218,4 +223,5 @@ video {
 	background-color: #DCCCE8;
 	color:#000;
 }
+
 
