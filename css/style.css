@@ -18,9 +18,9 @@ body{
 	}
 
 
-h1,h2,h3{
+h1,h2,h3, #itunes{
 	text-transform: uppercase;
-	letter-spacing: 4px;
+	letter-spacing: 2px;
 	color: #5CC9D6 !important;
 
 }
@@ -38,15 +38,6 @@ footer p{
 	background-color: transparent !important;
 }
 
-input[type=text], input[type=number]{
-	background-color: #DCCCE8;
-}
-
-input[type=text]:focus, input[type=number]:focus{
-	border:2px solid #5CC9D6;
-	background-color: #6b585b;
-	color: #fff;
-}
 
 /*styling social bar*/
 nav img{
@@ -57,14 +48,14 @@ nav img{
 
 /*styling div container-fluids and fonts*/
 .container-fluid{
-	padding: 80px 80px;
+	padding: 50px 50px;
 	
 }
 
 .td1{
 	background:black;
 	color:#DCCCE8;
-	padding-top: 80px;
+	padding-top: 50px;
 }
 
 .td1 p{
@@ -75,15 +66,14 @@ nav img{
 .navbar, .navbar-default, .navbar-fixed-top{
 		border-radius: 0;
 		font-weight: bold;
-		font-size: 18px !important;
-		letter-spacing: 4px;
+		font-size: 16px !important;
+		letter-spacing: 2px;
 		background-color: #6b585b;
 		opacity: 0.8;
-		border:none;
+		border:transparent;
 		color: #DCCCE8;
 		text-transform: uppercase;
-		padding: 20px;
-		margin-bottom: 20px;
+		padding: 0;
 }
 
 .navbar li a, .navbar, .navbar-brand{
@@ -103,9 +93,13 @@ nav img{
 }
 
 .navbar-brand{
-	font-size: 20px !important;
+	font-size: 30px !important;
 	font-weight: bolder;
 	color: #5CC9D6 !important;
+}
+
+.navbar-toggle{
+	color:#fff;
 }
 
 /*styling home page carousel*/
@@ -121,62 +115,62 @@ nav img{
 }
 
 /*styling music page carousel*/
-.carouselm{
-	height: 350px;
-	width: 350px;
+
+#songs>.list-group-items{
+	border-radius: 0 !important;
+	padding: 0;
+	color:#000;
 }
 
-.carouselm h3{
-	background-color: #000 !important;
-	opacity: .8;
-	border-radius: 10px;
-}
-
-/*styling albums*/
-.album-list {
-	display: inline-block;
-	padding: 10px;
-	text-align: top center;
-	vertical-align: center;
-}
-
-#play1, #play2, #play3, #play4{
+#play1{
 	display: none;
+}
 }
 
 #itunes{
 	text-decoration: none;
-	color: inherit;
+	color: #5CC9D6 !important;
 }
 
 .glyphicon-shopping-cart, .glyphicon-play{
 	color: #5CC9D6 !important;
+	height: 20px;
+	width: 20px;
 }
 
 .show {
 
 }
 
+/*styling lists*/
 .list-group-item{
 	background-color: #DCCCE8;
-	color: black;
-
+	color: #000;
 }
+
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+ }
+
+ .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
 
 /*styling band memebers photos*/
 .img-circle{
 	-webkit-filter:grayscale(80%);
 	filter: grayscale(80%);
-	height: 250px;
-	width: 250px;
+	height: 80%;
+	width: 80%;
 }
 
 /*styling band members profile description*/
 .name{
 	opacity:0.8;
 	border: solid transparent 8px;
-	height:200px;
-	width:150px;
 }
 
 .name:hover{
@@ -191,6 +185,7 @@ nav img{
 #comments{
 	background-color: #DCCCE8;
 	color: #fff;
+	border-radius: 0;
 
 }
 
@@ -198,13 +193,23 @@ nav img{
 	background-color: #6b585b;
 	border: 2px solid #5CC9D6;
 	color: #fff;
+	border-radius: 0;
 
 }
 
-.glyphicon-shopping-cart{
-	height:20px;
-	width:20px;
+input[type=text], input[type=number]{
+	background-color: #DCCCE8;
+	border-radius: 0;
+	color: #000 !important;
 }
+
+input[type=text]:focus, input[type=number]:focus{
+	border:2px solid #5CC9D6;
+	background-color: #6b585b;
+	color: #fff;
+	border-radius: 0;
+}
+
 
 /*gigs page button styling*/
 
@@ -221,4 +226,9 @@ nav img{
 	color:#000;
 }
 
+.thumbnail{
+	border-radius: 0;
+	background-color: #DCCCE8;
+	color: #000;
+}
 
