@@ -4,7 +4,6 @@ $(document).ready(function(){
 
 		var currentActiveImage = $('.image-shown');
 		var nextActiveImage = currentActiveImage.next();
-		$('.image-shown').fadeIn('slow', function(){
 
 		if (nextActiveImage.length == 0)
 		{
@@ -15,9 +14,10 @@ $(document).ready(function(){
 		nextActiveImage.addClass('image-shown').removeClass('image-hidden').css('z-index', 20);
 
 		$('.carousel-inner img').not([currentActiveImage,nextActiveImage]).css('z-index',1);
+		
 
 		event.preventDefault();
-	});
+
 	});
 
  	$('.previousLink').on('click', function(event){

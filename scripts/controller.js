@@ -26,6 +26,10 @@ angular.module('bandControllers',[])
 
    $scope.title = 'Contact';  
 })
+.controller('NewsController',function($scope) {
+
+   $scope.title = 'News';  
+})
 
 // declaring error page controller
 

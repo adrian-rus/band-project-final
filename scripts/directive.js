@@ -34,4 +34,14 @@ angular.module('bandDirectives',[])
     },
     templateUrl: 'templates/directives/songs.html'
   }
+})
+
+.directive('bandNews', function(){
+  return{
+    restrict: 'E',
+    scope:{
+      news: '=news'
+    },
+    templateUrl: 'templates/directives/news.html'
+  }
 });
