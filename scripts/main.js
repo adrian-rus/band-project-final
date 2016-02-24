@@ -1,17 +1,22 @@
 $(document).ready(function(){ 
     
-       $('#show-play1').click(function(){ 
-      $('#play1').toggleClass('show');
-    });
-
-    $('#img1').click(function(){
-      $('#play1').toggleClass('show');
-    });
-
-    $('.name').click(function(){
-    $('.preview').toggleClass('show');
-     })
-
+  $('.name1').click(function(){
+  $('.preview1').toggleClass('show');
   });
+
+  $('.name2').click(function(){
+  $('.preview2').toggleClass('show');
+  });
+
+  $('.name3').click(function(){
+  $('.preview3').toggleClass('show');
+  });
+
+  $('.name4').click(function(){
+  $('.preview4').toggleClass('show');
+  });
+
+
+});
 
 

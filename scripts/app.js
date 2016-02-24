@@ -4,12 +4,12 @@ angular.module('bandApp', ['ngRoute','bandControllers','bandDirectives',])
 		 
 		$routeProvider
 			.when('/', {
-		  	templateUrl: 'templates/home.html',
+		  	templateUrl: 'templates/home2.html',
 		  	controller: 'HomeController'
 		  })
 
 			.when('/home', {
-		  	templateUrl: 'templates/home.html',
+		  	templateUrl: 'templates/home2.html',
 		  	controller: 'HomeController'
 		  })
 

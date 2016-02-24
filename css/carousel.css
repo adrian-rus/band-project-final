@@ -1,0 +1,40 @@
+.image-shown{
+	display: inline-block;
+}
+
+.image-hidden{
+	display: none;
+}
+
+.carousel-inner{
+	width: 80%;
+	height: 60%;
+	/*position: relative;
+	float: left;*/
+}
+
+.carousel-inner img{
+	height: 100%;
+	-webkit-filter:grayscale(70%);
+	filter: grayscale(70%);
+	margin:auto;
+	width: 100%;
+
+}
+
+.carousel-caption p h3{
+	color: #5CC9D6 !important;
+	background-color: transparent;
+}
+
+.previousLink, .nextLink, .carousel-inner{
+	position: relative;
+}
+
+.previousLink{
+	margin-right: 20px;
+}
+
+.nextLink{
+	margin-left: 20px;
+}
