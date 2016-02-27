@@ -16,6 +16,9 @@ $(document).ready(function(){
   $('.preview4').toggleClass('show');
   });
 
+  $('#song1').click(function(){
+    $('audio').play();
+  })
 
 });
 
