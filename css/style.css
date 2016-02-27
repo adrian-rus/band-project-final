@@ -176,16 +176,27 @@ nav img{
 	right: 50px;
 }
 
-#hmc{
-	padding: 0px;
-	margin-top: 0px;
+.carousel-outer{
+	padding: 0;
+
 }
 
-@media screen and (min-width: 300px) and (max-width: 1000px){
+
+#intro{
+display: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px){
 	
 .carousel-outer{
 	display: none;
 }
+
+#intro{
+	display: block;
+	padding-top: 50px;
+}
+
 }
 
 /*styling music page */
